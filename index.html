@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Document</title>
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<title>Map</title>
+	</head>
 
-  <body></body>
+	<body>
+		<div class="container">
+			<div id="map"></div>
+
+			<div class="content">
+				<div class="content__title-wrapper">
+					<h1 class="content__title">Your city not listed?</h1>
+				</div>
+				<div class="content__text-wrapper">
+					<p class="content__text">
+						If you’d like to see Scoot in your hometown, be sure to let us know.
+						We track requests and plan launches based on demand. Feel free to
+						message us by clicking the link or messaging us on social.
+					</p>
+				</div>
+				<a class="content__link" href="#">Message Us</a>
+			</div>
+		</div>
+
+		<script src="./mapdata.js"></script>
+		<script src="./worldmap.js"></script>
+	</body>
 </html>
